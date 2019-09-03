@@ -103,7 +103,7 @@ class TicTacToe
   def play 
     puts "Welcome to Tic Tac Toe!"
     display_board
-    binding.pry
+    # binding.pry
     until over?
       turn
       
