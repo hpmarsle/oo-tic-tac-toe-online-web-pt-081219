@@ -72,7 +72,7 @@ class TicTacToe
   end
   
   def won?
-    WIN_COMBINATIONS.each do |combo| #[winning option]
+    WIN_COMBINATIONS.find do |combo| #[winning option]
       result = combo if @board[combo[0]] != " " && @board[combo[0]] == @board[combo[1]] &&  @board[combo[1]] == @board[combo[2]]
     end 
   end 
