@@ -106,8 +106,7 @@ class TicTacToe
     
     until over?
       turn
-      
-      over?
+   
     end
     if won?
       winning_player = self.winner
