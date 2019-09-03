@@ -92,7 +92,7 @@ class TicTacToe
   def winner
     winning_player = nil
     winning_arrangement = self.won?
-    binding.pry
+    # binding.pry
     winning_arrangement.each do |i|
       winning_player = @board[i] if @board[i] == "X" || @board[i] == "O"
     end 
