@@ -109,7 +109,7 @@ class TicTacToe
       
       over?
     end
-    if over? && won?
+    if won?
       winning_player = self.winner
       puts "Congratulations #{winning_player}!"
     else
