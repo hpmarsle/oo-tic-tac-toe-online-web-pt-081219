@@ -106,8 +106,8 @@ class TicTacToe
     
     until over?
       turn
-   
     end
+    
     if won?
       winning_player = self.winner
       puts "Congratulations #{winning_player}!"
