@@ -112,7 +112,7 @@ class TicTacToe
       winning_player = self.winner
       puts "Congratulations #{winning_player}!"
     else
-      puts "Cats Game!"
+      puts "Cat's Game!"
     end 
   end 
   
